@@ -1,0 +1,282 @@
+
+<html>
+<head>
+<title>Restaurant website</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="all.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"> 
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+</head>
+<body>
+   
+
+            
+<!-- Navbar -->
+<div id="menu" class="menu">
+<div id="menu-bar" onclick= "onClickMenu()">
+    <div id="bar1" class="bar"></div>
+    <div id="bar2" class="bar"></div>
+    <div id="bar3" class="bar"></div>
+    <ul id= "nav"  class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="explore.html">MENU</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+        <li><a href="query.php">Drop a query</a></li>
+        <li><a href="Reviews.php">Feedback and Reviews</a></li>
+    </ul>
+
+</div>
+</div>
+<!-- <end of nav bar> -->
+<!-- Header -->
+<header class= "header">
+    <div class= "slider">
+    </div>
+    
+  <div class = "hero">
+      <h2 class= "title">"WELCOME TO"</h2>
+    <h1 class ="title"> "THE GOOD FOOD RESTAURANT"</h1>
+    <a href= "book.html" class= "hero-button pulsate">Book  Table</a>
+    <a href= "more.html"  class= "hero-button1 pulse">More about us</a><br>
+    <div id="myOverlay" class="overlay">
+        <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+        <div class="overlay-content">
+          <form action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+        </div>
+      </div>
+      
+      <button class="openBtn" onclick="openSearch()">Open Search Box</button>
+      
+      <script>
+      function openSearch() {
+        document.getElementById("myOverlay").style.display = "block";
+      }
+      
+      function closeSearch() {
+        document.getElementById("myOverlay").style.display = "none";
+      }
+      </script>
+    
+    
+
+  </div>
+
+
+
+</header>
+<!-- <about us section>--->
+    <section id="about">
+        <div>
+            <h2 class="title-text">About Us</h2>
+         </div>
+         <div class= "about-center">
+             <!-- <start of article> -->
+                 <article class="about">
+                     <div class="about-icon">
+                         <i class="fas fa-2x fa-glass-cheers"></i></div>
+                         <div class="about-text">
+                             <h2 class="about-subtitle">Drinks and Juices</h2>
+                             <p class="about-info">Variety of drinks and juices are available in our restaurant which includes orange juice,
+         cold-drinks ,mineral water etc.</p>
+                         </div>
+                 </article>
+                 <!-- <end of the article -->
+                     <!-- <start of article> -->
+                    <article class="about">
+                        <div class="about-icon">
+                            <i class="fas fa-2x fa-drumstick-bite"></i></div>
+                            <div class="about-text">
+                                <h2 class="about-subtitle">Veg and non veg</h2>
+                                <p class="about-info">Here we serves both types of foods on the demands of customer veg and non
+                                    veg both types of items are available
+                                </p>
+                            </div>
+                    </article>
+                    <!-- <end of the article -->
+                        <!-- <start of article> -->
+                    <article class="about">
+                        <div class="about-icon">
+                            <i class="fas fa-2x fa-clock"></i></div>
+                            <div class="about-text">
+                                <h2 class="about-subtitle">Opening and closing</h2>
+                                <p class="about-info">We opens our restaurant at 10am and it closes at 11 pm.</p>
+                            </div>
+                    </article>
+                    <!-- <end of article -->
+                        <!-- <start of article> -->
+                    <article class="about">
+                        <div class="about-icon">
+                            <i class="fas fa-2x fa-utensils"></i></div>
+                            <div class="about-text">
+                                <h2 class="about-subtitle">fresh food</h2>
+                                <p class="about-info">Here we serve fresh and well cooked food.</p>
+                            </div>
+                    </article>
+                     <!-- <end of the article -->
+                         <!-- <start of the article -->
+                
+                    <article class="about">
+                     <div class="about-icon">
+                         <i class="fas  fa-2x fa-mortar-pestle"></i></div>
+                         <div class="about-text">
+                             <h2 class="about-subtitle">organic food</h2>
+                             <p class="about-info">we serve organic foods as well.</p>
+                             </div>
+                 </article>
+                 </div>
+                 </section-id>
+    <!-- <menu section -->
+<section class="menu" id="menu">
+<article class="menu-image"></article>
+<article class="menu-text">
+    <div class="menu-text-center">
+        <h1>"Our menu"</h1>
+        <p>Good food always gives good mood , our restaurant serves the best food here we serves veg
+            and non veg items both and our starters are also very tasty and along with these we are serving
+            drinks like juices,coldrinks etc.
+        </p>
+        <a href="explore.html">Explore</a>
+    </div>
+
+</article>
+</section>
+
+
+<!--social icons-->
+<section id="social-icons">
+    <a href="#"><i class="fab fa-facebook facebook"></i></a>
+    <a href="#"><i class="fab fa-twitter twitter"></i></a>
+    <a href="#"><i class="fab fa-instagram instragram"></i></a>
+    <a href="#"><i class="fab fa-google-plus plus"></i></a>
+
+</section>
+<!-- <numbers section -->
+    <section id="number">
+        <article class="number">
+            <i class="fas fa-pizza-slice"></i>
+            <p>10</p>
+            <h3>pizza variety</h3>
+        </article>
+        <article class="number">
+            <i class="fas fa-cheese"></i>
+            <p>35</p>
+            <h3>cheese dishes</h3>
+        </article>
+        <article class="number">
+            <i class="fas fa-ice-cream"></i>
+            <p>10</p>
+            <h3>deserts items</h3>
+            </article>
+            <article class="number">
+                <i class="fas fa-cloud-meatball"></i>
+                <p>10</p>
+                <h3>non veg items</h3>
+        </article>
+
+    </section>
+    <!-- <card section -->
+        <section id="food">
+            <div>
+                <h2 class="title-text">food fusion</h2>
+            </div>
+            <div class="container">
+                <article class="food-card">
+                    <img src="food11.jpg" class="food-img" alt="">
+                    <div class=img-text>
+                        <h1>breakfast</h1>
+                        <h2>Chinese dosa</h2>
+                    </div>
+                    <div class="img-footer">
+                        <div class="footer-icon">
+                            <i class="fas fa-rupee-sign">70</i>
+                        </div>
+                        <div class="footer-btn">
+                            <a href="order2.php" class="food-btn">Order now</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="food-card">
+                    <img src="food12.jpg" class="food-img" alt="">
+                    <div class=img-text>
+                        <h1>breakfast</h1>
+                        <h2>masala dosa</h2>
+                    </div>
+                    <div class="img-footer">
+                        <div class="footer-icon">
+                            <i class="fas fa-rupee-sign">50</i>
+                        </div>
+                        <div class="footer-btn">
+                            <a href="order2.php" class="food-btn">Order now</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="food-card">
+                    <img src="food13.jpg" class="food-img" alt="">
+                    <div class=img-text>
+                        <h1>starters</h1>
+                        <h2>gulab jamun ice cream</h2>
+                    </div>
+                    <div class="img-footer">
+                        <div class="footer-icon">
+                            <i class="fas fa-rupee-sign">100</i>
+                        </div>
+                        <div class="footer-btn">
+                            <a href="order2.php" class="food-btn">Order now</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="food-card">
+                    <img src="food14.jpg" class="food-img" alt="">
+                    <div class=img-text>
+                        <h1>Main course</h1>
+                        <h2>Mushroom butter masala</h2>
+                    </div>
+                    <div class="img-footer">
+                        <div class="footer-icon">
+                            <i class="fas fa-rupee-sign">150</i>
+                        </div>
+                        <div class="footer-btn">
+                            <a href="order2.php" class="food-btn">Order now</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="food-card">
+                    <img src="food15.jpg" class="food-img" alt="">
+                    <div class=img-text>
+                        <h1>main course</h1>
+                        <h2>Chicken Lajawab</h2>
+                    </div>
+                    <div class="img-footer">
+                        <div class="footer-icon">
+                            <i class="fas fa-rupee-sign">200</i>
+                        </div>
+                        <div class="footer-btn">
+                            <a href="order2.php" class="food-btn">Order now</a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+<script src="onclickmenu.js"></script>
+    <div class="footer">
+         <p>@Copyright <a href="index.html">THE GOOD FOOD </a> 2022- All Right Reserved.</p>
+    </div>
+             
+</body>
+    </html>
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,141 @@
+.header{
+    min-height: 100vh;
+    /* linear-gradient(rgb(0,0,0,0.3), rgba(0,0,0,0.3)), */
+     /* url('food1.jpg') center/cover no-repeat fixed; */ */
+     margin: 0;
+    padding: 0;
+} 
+body{
+    font-family: 'Lobster', cursive;
+    line-height: 1.5;
+     background-color: rgba(27,31,34,0.85);
+     /* background-image: url("food1.jpg"); */
+}
+.slider1{
+    width:1000px;
+    height:600px;
+    position: absolute;
+    left: 15%;
+    top: 5%;
+     /* transform:translate(-50%,-80%); */
+    background-image: url("food5.jpg");
+    background-size: 100% 100%;
+    box-shadow:  1px 2px 10px 10px violet;
+    animation: slide 20s infinite linear;
+}
+@-webkit-keyframes slide{
+    25%{
+        background: url("food6.jpg");
+    }
+    50%{
+        background: url("food5.jpg");
+    }
+    75%{
+        background: url("food4.jpg")
+    }
+    100%{
+        background: url("food7.jpg");
+    }
+
+}
+.heroine-button2{
+    display:grid;
+    position:top;
+    text-decoration: darkcyan;
+    text-transform: calc();
+    text-align: left;
+    padding: 13px 20px;
+    border-radius: 100px;
+    font-weight: bold;
+    background: red;
+    color: blue;
+    cursor: vertical-text;
+    border: 2px solid red;
+    margin-top: 10px;
+}
+.heroine-button2:hover{
+    background: white;
+    color: red;
+    border:none;
+}
+.more{
+    animation: more 3s ease-in-out;
+    animation-iteration-count: infinite;
+    opacity: 1;
+    color: greenyellow;
+    position: relative;
+    /* left: 30%;
+    top: 5%;
+    bottom:25%; */
+}
+@-webkit-keyframes more{
+    0%{
+        opacity: 2;
+        color: white;
+    }
+    50%{
+        opacity: 2;
+        color: violet;
+    }
+    100%{
+        opacity: 1;
+        color: black;
+    }
+}
+
+.heroine{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+}
+/* .heroine .title-text{
+    color:cornsilk;
+    font-size: 20px;
+}
+.title-text{
+    animation: title 3s ease-in-out;
+    animation-iteration-count: infinite;
+    opacity: .5;
+    color: red;
+    right:20%;
+    top:70%;
+} */
+.heroine .gist{
+
+    color: black;
+    font-size: 30px;
+}
+.gist{
+    width:1000px;
+    height:600px;
+    position: static;
+    right: 25%;
+    top: 20%;
+    background-color: thistle;
+    background-image: url("food8.jpg");
+}
+#More-about-us{
+    padding: 40px;
+    background-color: palevioletred;
+}
+.more-about{
+    margin:30px 0;
+    display: flex;
+}
+.more-about-icon .fas{
+    font-size: 60px;
+    color: red;
+    margin-right: 20px;
+}
+
+.more-about-icon:hover .fas{
+    transition: transform 2s ease, color 2s ease;
+    transform: translateY(-10px);
+    color: yellow;
+    cursor: pointer;
+}

@@ -1,0 +1,43 @@
+/* CSS for Food Menu */
+.food-menu{
+    background-color:lightsalmon;
+    padding: 4% 0;
+}
+.food-menu-box{
+    width: 33%;
+    margin: 2%;
+    padding: 2%;
+    float: right;
+    background-color:pink;
+    border-radius: 20px;
+}
+
+.food-menu-img{
+    width: 20%;
+    float: left;
+}
+
+.food-menu-desc{
+    width: 50%;
+    float: right;
+    margin-left: 5%;
+    background-color: whitesmoke;
+}
+
+.food-price{
+    font-size: 1.7rem;
+    margin: 2% 0;
+    background-color: blue;
+}
+.food-detail{
+    font-size: 3rem;
+    color:red;
+}
+.food-menu-order{
+    font-size: 2rem;
+    color:blueviolet;
+
+}
+.food-menu-order:hover{
+    background-color: brown;
+}
